@@ -15,7 +15,7 @@ flowchart TB
         end
         subgraph tick.levels[levels]
             direction TB
-            subgraph tick.levels.overworld["ServerLevel[LEVEL_NAME]_minecraft:overworld"]
+            subgraph tick.levels.overworld["ServerLevel[LEVEL_NAME] minecraft:overworld"]
                 direction TB
                 tick.levels.overworld.timeSync[timeSync]
                 subgraph tick.levels.overworld.tick[tick]
@@ -24,7 +24,7 @@ flowchart TB
                 end
                 tick.levels.overworld.timeSync --> tick.levels.overworld.tick
             end
-            subgraph tick.levels.otherDimension["ServerLevel[LEVEL_NAME]_DIMENSION⋆"]
+            subgraph tick.levels.otherDimension["ServerLevel[LEVEL_NAME] DIMENSION⋆"]
                 direction TB
                 subgraph TODO-2
                     direction TB
