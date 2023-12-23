@@ -51,3 +51,11 @@ flowchart TB
     nextTickWait
     tick --> nextTickWait
 ```
+
+## Variables
+
+| Variable | Description |
+| -------- | ----------- |
+| `LEVEL_NAME` | The name of the level. |
+| `DIMENSION` | The name of a dimension. |
+| `COMMAND_FROM_CONSOLE_INPUTS` | A command from the console inputs. |
